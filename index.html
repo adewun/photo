@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phLEARN</title>
+    <link rel="stylesheet" href="photo.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="icon"href="foto.jpg">
+</head>
+<body onload="slider()">
+    <div>
+        <div class="box1"> 
+            <header>
+                <img src="cam.jpg" alt="" id="cam"> <a class="logo"> pHLEARN</a>
+                <ul>
+                    <li class="in">Home</li>
+                    <li ><a href="pro.html" target="blank">Photography</a></li>
+                    <li>illustrations</li>
+                    <div class="ic"><i id="c" class="fab fa-instagram"></i></div> 
+                </ul>
+         
+            </header>
+            <a href="#" class="aa"><i class="fas fas fa-angle-double-up"></i></a>
+            <div class="hold">This website use cookies. By continuing to use this website you are giving consent to cookies being used.
+                <button id="btn-hold"> ACCEPT</button> <h3 class="hold2">| Read More</h3>
+            </div>
+            <div class="top">
+               <div class="content">
+                   <small>Welcome to our </small>
+                   <h1 class="type1">World's Photography<br> Studio</h1>
+                   <h2 class="pro">200+ PRO Tutorials.<br>
+                       500+ Presets, Actions & LUTs.<br>
+                       New content every week.<br>
+                   </h2>
+                   <p>From 99.99/year</p>
+                   <button class="start">GET STARTED</button>
+                </div>
+                <div class="white"></div>
+                <div class="banner">
+                    <div class="slider" >
+                        <img src="glowwhite.jpg" alt="" id="slideimg">
+                    </div>
+                </div>
+                <script>
+                    var slideimg = document.getElementById("slideimg");
+            
+                    var images = new Array(
+                        "glowwhite.jpg",
+                        "glowblack.jpg"
+                    );
+            
+                    var len = images.length;
+                    var i = 0;
+            
+                    function slider(){
+                        if(i > len-1){
+                            i = 0;
+                        }
+                        slideimg.src = images[i];
+                        i++;
+                        setTimeout('slider()',3000);
+                    }
+                </script>
+            </div>
+        <div>
+            
+            <div class="case">
+              <div class="tag"><h2 class="bigtag">POPULAR PRO TUTORIAL</h2><h3 class="bigtag2">VIEW MORE</h3></div>
+              <div class="big">
+                  <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="Guide.jpg" alt=""></div>
+                  <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="pret.jpg" alt=""></div>
+                  <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="rock.jpg" alt=""></div>
+                  <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="cube.jpg" alt=""></div>
+                  <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="fall.jpg" alt=""></div>
+              </div>
+            </div> 
+            <div class="case2">
+                <div class="tag2"><h2 class="bigtag1">LEARNING PATHS</h2></div>
+                <div class="big">
+                    <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="Photoshop.jpg" alt=""></div>
+                    <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="ligthroom.jpg" alt=""></div>
+                    <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="composition.jpg" alt=""></div>
+                    <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="Retouching.jpg" alt=""></div>
+                    <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="Photography.jpg" alt=""></div>
+                </div>
+            </div> 
+        </div> 
+        <div class="pictext">
+            <div class="text1">
+                <h2 class="learn">Learn professional<br> retouching.</h2>
+                <h4 class="learn2">People.Fashion.Product photo retouching is in high demand.
+                     Learn the tools and technique that the pros use to enhance photos,remove distractions
+                    and help bring out a subject's natural beauty. </h4>
+                    <button class="start2">GET STARTED</button>
+            </div>
+            <div class="pic1"></div>
+        </div>
+        <div class="case3">
+            <div class="tag"><h2 class="bigtag">TOP RETOUCHING COURSES</h2><h3 class="bigtag2">VIEW MORE</h3></div>
+            <div class="big">
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="makeup.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="eye2.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="eye3.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="eye.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="potrait.jpg" alt=""></div>
+            </div>
+        </div> 
+        <div class="cell">
+            <div><img src="phone.png" alt="" id="phone"></div>
+            <div class="phonetext"><h2 class="phtext">Unlimited streaming,<br> whereever you are.</h2><h3 class="phtext2">You're busy. We get it. Learn on your own time, and from 
+                <br> whereever you are. No bulky video downloads. No waiting. Just 
+               <br>hit  play.</h3></div>
+        </div>
+        <div class="pictext">
+            <div class="text1">
+                <h2 class="learn">Learn professional<br> retouching.</h2>
+                <h4 class="learn2">People.Fashion.Product photo retouching is in high demand.
+                     Learn the tools and technique that the pros use to enhance photos,remove distractions
+                    and help bring out a subject's natural beauty. </h4>
+                    <button class="start2">GET STARTED</button>
+            </div>
+            <div class="pic2"></div>
+        </div>
+        <div class="case4">
+            <div class="tag"><h2 class="bigtag">TOP RETOUCHING COURSES</h2><h3 class="bigtag2">VIEW MORE</h3></div>
+            <div class="big">
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="img4.gif" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="img3.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="img2.gif" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="img1.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="img5.jpg" alt=""></div>
+            </div>
+        </div> 
+        <div class="circle"><h3 class="circle1">People, Fashion, Product are in high demand <br>demand here.</h3></div>
+        <div class="pictext">
+            <div class="text1">
+                <h2 class="learn">Learn professional<br> retouching.</h2>
+                <h4 class="learn2">People.Fashion.Product photo retouching is in high .
+                     Learn the tools and technique that the pros use to enhance photos,remove distractions
+                    and help bring out a subject's natural beauty. </h4>
+                    <button class="start2">GET STARTED</button>
+            </div>
+            <div class="pic3"></div>
+        </div>
+        <div class="case5">
+            <div class="tag"><h2 class="bigtag">TOP RETOUCHING COURSES</h2><h3 class="bigtag2">VIEW MORE</h3></div>
+            <div class="big">
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="grid1.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="grid2.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="grid3.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="grid4.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><h5 class="prol"><i class="fas fa-heart"></i></h5><img src="grid5.jpg" alt=""></div>
+            </div>
+        </div> 
+        <div class="cell2">
+            <div class="tabs"><h2 class="bigtab">Meet our phamily <br>of instructors,</h2><br><h3 class="bigtab1">Learn from the most creative, friendly, fun artist and professionals in the world.</h3></div>
+            <div class="big2">
+                <div class="big1"><img src="ins1.png" alt=""></div>
+                <div class="big1"><img src="ins2.png" alt=""></div>
+                <div class="big1"><img src="ins3.png" alt=""></div>
+                <div class="big1"><img src="ins4.png" alt=""></div>
+                <div class="big1"><img src="ins5.png" alt=""></div>
+            </div>
+        </div> 
+        <div class="case6">
+            <div class="flagtext"> <h2 class="flag1">Learn professional<br> retouching.</h2>
+                <h4 class="flag2">People.Fashion.Product photo retouching is in high demand.
+                     Learn the tools and technique that the pros use to enhance photos,remove distractions
+                    and help bring out a subject's natural beauty. </h4>
+                    <button class="flag3">WATCH NOW</button>
+                </div>
+            <div class="big6"><h5 class="pro2">PRO</h5><img src="flag.jpg" alt="" id="flag"></div>
+        </div>
+        <div class="case2">
+            <div class="tag"><h2 class="all1">LEARNING PATHS |</h2><h3 class="all">VIEW ALL</h3></div>
+            <div class="big">
+                <div class="big1"><h5 class="pro1">PRO</h5><img src="Photoshop.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><img src="ligthroom.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><img src="composition.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><img src="Retouching.jpg" alt=""></div>
+                <div class="big1"><h5 class="pro1">PRO</h5><img src="Photography.jpg" alt=""></div>
+            </div>
+        </div> 
+        <div class="section" >
+            <div class="featured">
+             <div class="feat">   As Featured In
+                <img src="500px.png" alt="" id="in">
+                <img src="adobe.png" alt=""id="out">
+                <img src="inc.png" alt=""id="in">
+                <img src="pixel.png" alt=""id="in">
+                <img src="post.png" alt=""id="in">
+            </div>
+
+            </div>
+            <div class="pick">
+                <div class="cent">
+                    <h4 class="to">Start Learn Today.</h4>
+                <h5 class="year">Unlimited Access from $99.99/year</h5>
+                <button class="btn-1">GET STARTED</button>
+                </div>
+                <div class="plate1">
+                    <div class="mark1">
+                        <a class="mark">+</a><h3 class="mint1">200+ in-depth courses.</h3>
+                    </div>
+                    <div class="markup1">
+                        <a class="markup">+</a><h3 class="mint2">500+ Preset, Actions, LUTs.</h3>
+                    </div>
+                </div>
+                <div class="plate2">
+                        <div class="mark1"><a class="mark">+</a><h3 class="mint1">New content everyweek.</h3></div>
+                        <div class="markup1"><a class="markup">+</a><h3 class="mint2">Cancel anytime</h3></div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <footer>
+            <div class="footcase">
+                <div class="ph">pHLEARN</div>
+                <div>
+                    <h3 class="ontop">PRODUCTS</h3>
+                    <h5 class="lowtop">
+                        Join pHLEARN PRO<br>
+                        View All Tutorials<br>
+                        PRO Tutorials<br>
+                        Free Tutorials<br>
+                        Magazine<br>
+                        Testimonials<br>
+                    </h5>
+                </div>
+                <div>
+                    <h3 class="ontop">LEARNING PATHS</h3>
+                    <h5 class="lowtop">
+                        Join pHLEARN PRO<br>
+                        View All Tutorials<br>
+                        PRO Tutorials<br>
+                        Free Tutorials<br>
+                    </h5>
+                </div>
+                <div>
+                    <h3 class="ontop">COMPANY</h3>
+                    <h5 class="lowtop">
+                        About Us <br>
+                        Support<br>
+                        PRO Tutorials<br>
+                        Free Tutorials<br>
+                        Magazine<br>
+                        Testimonials<br>
+                        Site Map<br>
+                    </h5>
+                </div>
+                <div> 
+                    <div class="tip1">
+                        <h3 class="sign">Sign up for exclusive discounts</h3>
+                        <input type="text"placeholder=" Your E-mail Address"><br>
+                    </div>
+                    <div class="tip2">
+                        <h3 class="con">CONNECT</h3>
+                        <i title="facebook" id="f" class=" fab fa-facebook"></i>
+                        <i  title="instagram" id="f" class=" fab fa-instagram"></i>
+                        <i title="twitter" id="f" class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <h3 class="textend">All rigth reserved 2019. Terms of Service and Privacy Policy.</h3>
+            
+        </footer>
+     
+    </div>
+
+</body>   
+</html>
